@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-	res.send('');
+	res.send('This doesnt work anymore');
 });
 
-app.listen(port, () => console.log(`${port}!`));
+app.listen(port, () => console.log(`Port was supposed to run at ${port}!`));
